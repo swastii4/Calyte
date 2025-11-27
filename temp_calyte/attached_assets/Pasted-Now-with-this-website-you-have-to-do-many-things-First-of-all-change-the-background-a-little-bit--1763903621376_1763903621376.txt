@@ -1,0 +1,35 @@
+Now with this website, you have to do many things.
+First of all, change the background a little bit. It is way too grainy. Keep everything exactly the same, but just make it softer — not that grainy.
+
+Now for the chatbot, you have to make the entire chatbot similar to ChatGPT, but still different. So first I will explain its layout:
+
+When we select the chatbot option, the yellow–orange–white ball that is currently in the center should change into a four-sided star. This star should keep rotating (both outward and inward), and the animation must be very smooth and calm.
+
+For the light/morning mode, the entire chatbot screen should be white.
+For the night mode, it should be  dark grey
+The transition between both modes must be very smooth.
+
+Now regarding features:
+There will be two options — text-to-text chatbot and speech-to-speech chatbot. Make it accordingly. For speech-to-speech, you must integrate everything including speech recognition and speech.
+
+Also, that yellow–orange–white component should be animated exactly as I described how should it be while clicking the chatbot.
+
+Next: inside the Profile option, include two sections — Settings and Activity.
+
+In Settings, include small features like voice options and similar things. Also, create pages for each feature inside Settings.
+
+In Activity, create pages like History, Blocked Accounts, Things Posted, etc., and also create the pages for those features.
+In profile also include another thing that is emergency numbers and also option to edit it of course
+
+And also include this new thing if it is not there that is breathing and meditation, and make its page
+
+And remove that option that is there in that main landing page, stop breathing
+
+
+These are the music files that you have to put it in the playlist, and that music plays on in the music, it doesn’t play by default, but if the user clicks that sound button that you can see on the landing page, the song play on
+
+now all the games that are mentioned here, make it according to my theme. Where are the same interactive and calming? Make all the games also include this game that is Tetris. If it’s not there, include that too, and listen, make the mini game page to somewhere and include it in the landing page too if it’s not there
+
+And also for that assessment page include 20 questions, not only five
+
+For all of this, make sure you implement the complete website routing.
