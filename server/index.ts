@@ -86,15 +86,15 @@ app.use((req, res, next) => {
 
     const port = parseInt(process.env.PORT || "5000", 10);
     httpServer.listen(
-      {
-        port,
-        host: "0.0.0.0",
-        reusePort: true,
-      },
-      () => {
-        log(`serving on port ${port}`);
-      },
-    );
+  {
+    port,
+    host: "localhost",
+    reusePort: true,
+  },
+  () => {
+    log(`serving on port ${port}`);
+  },
+);
   } catch (error) {
     console.error("Failed to start server:", error);
     process.exit(1);
