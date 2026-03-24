@@ -74,8 +74,5 @@ Once the application is running, you can:
 - Access the client at `http://localhost:3000`
 - Make requests to the server APIs (check the API documentation for available endpoints).
 
-## Contributing
-If you would like to contribute to Calyte, please fork the repository and create a pull request with your changes. Make sure to follow the code style and include tests where applicable.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
