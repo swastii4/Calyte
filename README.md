@@ -1,78 +1,167 @@
 # Calyte
 
-## Overview
-Calyte is a monorepo project that consists of three main components: a client, a server, and shared code modules. This documentation will guide you through understanding the project structure, setting up your local environment, and using the application.
+**A Mental Health & Addiction Recovery Platform**
 
-## Project Structure
-The project structure is organized as follows:
+---
+
+## 🌿 Overview
+
+Calyte is a full-stack monorepo application designed to support individuals dealing with **addictions and mental health challenges**.
+It provides tools for tracking progress, accessing support resources, and building healthier habits through a structured and scalable system.
+
+The project is built using a modern web stack with a clear separation between frontend, backend, and shared logic.
+
+---
+
+## 🧱 Project Architecture
 
 ```
 Calyte/
-├── client/          # React frontend
-├── server/          # Express backend
-└── shared/          # Shared code between client and server
+├── client/          # React frontend (UI & user interaction)
+├── server/          # Express backend (API & business logic)
+└── shared/          # Shared modules (types, utilities)
 ```
 
-### Client
-The `client` directory contains the React application. It is responsible for rendering the user interface and handling user interactions.
+---
 
-### Server
-The `server` directory includes the Express application, which handles API requests and interacts with the database.
+## ⚙️ Tech Stack
 
-### Shared
-The `shared` directory contains code that is shared between the client and server, such as types, interfaces, and other common utilities.
+* **Frontend:** React.js
+* **Backend:** Node.js + Express
+* **Shared Layer:** Common utilities, types, and interfaces
+* **Optional:** Docker for containerized deployment
 
-## Setup Instructions
-To set up the project locally, follow these steps:
+---
 
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/swastii4/Calyte.git
-   cd Calyte
-   ```
+## 🧩 Core Components
 
-2. **Install Dependencies**  
-   - For the client:
-   ```bash
-   cd client
-   npm install
-   ```
-   - For the server:
-   ```bash
-   cd server
-   npm install
-   ```
+### 🖥️ Client
 
-3. **Setting Up Environment Variables**  
-   Create a `.env` file in the `server` directory and set your environment variables (e.g., database URL, API keys).
+* Built with React
+* Handles user interface and experience
+* Communicates with backend APIs
 
-4. **Running the Application**  
-   - To start the server:
-   ```bash
-   cd server
-   npm start
-   ```
-   - To start the client:
-   ```bash
-   cd client
-   npm start
-   ```
+### 🛠️ Server
 
-## Dockerized Setup
-Calyte can also be run using Docker. To set up the containers, follow these steps:
+* Built with Express
+* Manages API endpoints
+* Handles authentication, data processing, and business logic
 
-1. **Build the Docker Images**  
-   ```bash
-   docker-compose up --build
-   ```
+### 🔗 Shared
 
-2. **Access the Application**  
-   Both the client and server will be accessible through the defined ports in the `docker-compose.yml` file.
+* Reusable code between client and server
+* Includes:
 
-## Usage
-Once the application is running, you can:
-- Access the client at `http://localhost:3000`
-- Make requests to the server APIs (check the API documentation for available endpoints).
+  * Types/interfaces
+  * Utility functions
+  * Common configurations
 
+---
 
+## 🚀 Setup Instructions
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/swastii4/Calyte.git
+cd Calyte
+```
+
+---
+
+### 2. Install Dependencies
+
+#### Client
+
+```bash
+cd client
+npm install
+```
+
+#### Server
+
+```bash
+cd server
+npm install
+```
+
+---
+
+### 3. Configure Environment Variables
+
+Create a `.env` file inside the `server/` directory:
+
+```env
+DATABASE_URL=your_database_url
+API_KEY=your_api_key
+PORT=5000
+```
+
+---
+
+## ▶️ Running the Application
+
+### Start Backend Server
+
+```bash
+cd server
+npm start
+```
+
+### Start Frontend Client
+
+```bash
+cd client
+npm start
+```
+
+---
+
+## 🐳 Docker Setup (Optional)
+
+Run the entire application using Docker:
+
+```bash
+docker-compose up --build
+```
+
+---
+
+## 🌐 Access the Application
+
+* Frontend → http://localhost:3000
+* Backend API → http://localhost:5000
+
+---
+
+## 💡 Use Cases
+
+Calyte can be used for:
+
+* Addiction recovery tracking
+* Mental health habit building
+* Support system integration
+* Personal progress monitoring
+
+---
+
+## 🔮 Future Improvements
+
+* AI-based habit recommendations
+* Chatbot support for mental health guidance
+* Advanced analytics dashboard
+* Mobile app integration
+
+---
+
+## 👩‍💻 Author
+
+Swastika Khamaru, Vanisha Pariwal
+
+---
+
+## 🧠 Vision
+
+Calyte aims to create a **safe, supportive, and structured digital environment** for individuals on their journey toward recovery and better mental well-being.
+
+---
